@@ -2,14 +2,10 @@
 
 Official implementation of **CrossSR: Rethinking Cross-dataset Activation for Diffusion-Based Image Super-Resolution via Neuron-Memory-based Provenance Indexing**.
 
-The complete implementation, configuration files, and dataset preparation instructions are currently being organized and will be released shortly.
+The core implementation is provided in `Cross_SR.py`.
 
-The repository will include:
+## Dataset
 
-- Neuron-memory prior acquisition
-- Cross-dataset candidate scoring and indexing
-- Target-tailored training set construction
-- Wavelet-based auxiliary alignment
-- Training and evaluation scripts
+Download the dataset: [Baidu Drive](https://pan.baidu.com/s/1ayfCS43X18zNZH5DOwsAlQ?pwd=5k5c)
 
-Please check back soon for the complete release.
+More details will be released soon.
