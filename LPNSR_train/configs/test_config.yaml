@@ -1,0 +1,34 @@
+data:
+  gt_folder: ""
+  lq_folder: ""
+  output_folder: "./test_results"
+
+inference:
+  config_path: "configs/inference.yaml"
+
+metrics:
+  calculate_psnr: false
+  calculate_ssim: false
+  calculate_lpips: false
+  calculate_niqe: false
+  calculate_pi: false
+  calculate_clipiqa: false
+  calculate_musiq: false
+
+  crop_border: 4
+  test_y_channel: true
+
+  lpips_net: "alex"
+
+  use_pyiqa: true
+
+device: "cuda"
+
+output:
+  save_sr_images: true
+  save_metrics_csv: false
+  save_metrics_json: false
+  print_per_image: false
+
+seed: 231
+

@@ -1,0 +1,28 @@
+# LPNSR dependencies.
+# PyTorch with CUDA support must be installed separately FIRST (it is
+# intentionally NOT listed here, so pip never replaces your CUDA build):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+
+diffusers>=0.25.0
+transformers>=4.39            # tokenizers>=0.15 ships prebuilt cp312 wheels
+huggingface_hub>=0.25,<1.0    # hub 1.x breaks the transformers 4.x API
+accelerate
+safetensors>=0.4
+
+# degradation pipeline
+basicsr==1.4.2                
+numpy>=1.26
+opencv-python-headless
+scipy
+timm
+
+# validation metrics
+lpips
+pyiqa
+
+# misc
+pillow
+matplotlib
+pyyaml
+tqdm
+requests
